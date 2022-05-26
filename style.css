@@ -1,0 +1,96 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 100%;
+  }
+  
+  body {
+    background: url('https://i.imgur.com/qLjdZb6.jpg') no-repeat top center fixed;
+    background-size: cover;
+    
+  }
+  
+  .content {
+    float:right;
+    background-color:  hsla(60, 00%, 100%, .5);
+    width: 500px;
+    max-width: 100vw;
+    min-height: 1000px;
+    height: auto;
+  }
+  
+  .inform, .picture {
+    width: auto;
+    text-align: center;
+  }
+  
+  .picture {
+    width: auto;
+    height: 430px;
+    text-align: center;
+  }
+  
+  img{
+    height: auto;
+    width: 400px;
+    max-width: 100vw;
+    border-radius: 50%;
+    position: relative;
+    top:30px;
+    padding: 2px;
+    background-color: white;
+  }
+  
+  h1 {
+    font-size: 25px;
+    padding: 10px;
+    color: #202020;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  h2, p {
+    font-family: 'Open Sans', sans-serif;
+    padding: 5px;
+    color: #303030;
+  }
+  
+  .links {
+    padding: 20px;  
+  }
+  
+  .fa {
+    color: rgba(0,0,0,.6);
+  }
+  
+  .fa:hover {
+    color: rgba(0,0,0,.9);
+    transition: all 0.5s ease-in-out;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  li {
+    display: inline;
+    padding:5%;
+  }
+  
+  
+  /* .about, .publications {
+    background-color: hsla(147, 100%, 50%, 1);
+  }
+  
+  
+  .inform {
+    background-color: hsla(247, 100%, 50%, .4);
+  }
+  */
+  
+  
+  
+  
+  
